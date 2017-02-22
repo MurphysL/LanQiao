@@ -3,9 +3,10 @@ package MaxSubmatrix;
 import java.util.Scanner;
 
 /**
- * 给定一个 n \times mn×m 的矩阵 AA，求 AA 中的一个非空子矩阵，
- * 使这个子矩阵中的元素和最大。其中，AA 的子矩阵指在 AA 中行和列均连续的一部分。
+ * 给定一个 n×m 的矩阵 A，求 A 中的一个非空子矩阵，
+ * 使这个子矩阵中的元素和最大。其中，A 的子矩阵指在 A 中行和列均连续的一部分。
  *
+ * 突破点 : 如何确定矩阵
  * 注意最小值 Warn ：0 AC : Integer.MIN_VALUE
  */
 public class Main {
