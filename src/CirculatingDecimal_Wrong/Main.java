@@ -1,4 +1,4 @@
-package CirculatingDecimal;
+package CirculatingDecimal_Wrong;
 
 import java.util.Scanner;
 import java.util.Vector;
@@ -6,8 +6,8 @@ import java.util.Vector;
 
 /**
  * 两个整数做除法，有时会产生循环小数，其循环部分称为：循环节。
-
- 比如，11/13=0.846153846153 其循环节为846153共有 6 位。
+ *
+ * 比如，11/13=0.846153846153 其循环节为846153共有 6 位。
  */
 class Main {
     public static void main(String[] args) {
@@ -19,7 +19,6 @@ class Main {
     public static int f(int n, int m) {
         n = n % m;
         Vector<Integer> v = new Vector<Integer>();
-
         for(;;) {
             v.add(n);
             n *= 10;
