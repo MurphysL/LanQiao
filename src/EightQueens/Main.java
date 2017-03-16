@@ -3,6 +3,9 @@ package EightQueens;
 
 /**
  * Created by MurphySL on 2017/3/8.
+ *
+ *
+ * 坑：左上至右下的同斜线判断
  */
 public class Main {
 
