@@ -11,6 +11,8 @@ import java.util.Scanner;
  * 向后一步，坐标减少 1。
  * 跳跃一步，使得坐标乘 2。
  *  A 点移动到 B 点的最少步数是多少？
+ *
+ *  坑：容量
  */
 public class Main {
     static int A , B ,n;
